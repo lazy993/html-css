@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-image: linear-gradient(to right,  #0074C7, #005EA1);
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0px;
+        }
+        header{
+            padding-left:20px ;
+        }
+        main{
+            padding: 10px;
+            margin: 30px 20px 30px 90px;
+            background-color: #003961;
+            text-align: justify;
+            color: #0295fd;
+            box-shadow: 1px 1px 1px #00090f;
+            border-radius: 20px 0px;
+        }
+
+        h1{ color: #002138;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        nav > a{
+            text-decoration: none;
+            color: blue;
+            padding-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: white;
+            font-weight: bold;
+        }
+
+        #luta{
+            color: white;
+            font-weight: normal;
+        }
+        #nutricao{
+            color:rgba(0, 245, 0, 0.699);
+        }
+
+        .nutricoes{
+            text-decoration: none;
+            color: rgb(0, 255, 128);
+            padding-right: 30px;
+        }
+        .nutricoes:hover{
+            text-decoration: underline;
+            color: rgb(0, 153, 255);
+            font-weight: bold;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body><header><h1>Título do meu site</h1>
+    <p>Bem vindo(a) ao meu site, veja abaixo alguns parceiros do nosso site, atráves de links</p>
+    <nav><a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </nav>
+</header>
+    <main>
+        <section><h2>Seção de luta</h2>
+        <article id="luta"><h3>UFC</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis cumque culpa asperiores earum excepturi in ullam, quibusdam neque amet perferendis optio, eius alias ipsam dolorem aliquam? Unde sunt cupiditate quidem? <br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi adipisci, voluptate, qui excepturi beatae error cum nam ullam magnam aliquid rem ratione consequuntur incidunt maiores ducimus officia non praesentium dolorem?</p>
+    </article></section>
+    <section id="nutricao"><h2>Nutrição</h2>
+    <article ><h3>Alimentos perfeitos para manter a saúde em perfeitas condições:</h3></article> 
+    <aside>
+        <ul>
+            <li>Whey protein</li>
+            <li>Ovos</li>
+            <li>Queijo</li>
+            <li>Batata doce</li>
+            <li>Frutas</li>
+            <li>Farinha integral</li>
+            <li>Hipercalórico</li>
+            <li>dentre outros... <a href="#" class="nutricoes"> Acesse aqui para mais informações</a></li>
+        </ul> 
+    </aside></section>
+    </main>
+    <footer><p>Criadores do site:lazy wrath; João Pedro; Drifey</p></footer>
+    <div id="bola"></div>
+</body>
+</html>

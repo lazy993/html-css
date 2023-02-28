@@ -1,0 +1,125 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'android';
+    src: url(..ferramentas/fontes/idroid.otf) format(opentype);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --cor01:#44ffb7;
+    --cor02:#228000;
+    --cor03:#48fdb244;
+    --cor04:#044e1c;
+    --cor05:#39a014;
+
+    --fonte-padrao:Arial, Helvetica, sans-serif;
+    --fonte-android:'android', cursive;
+    --fonte-destaque:'Bebas Neue', cursive;
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: var(--fonte-padrao);
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--cor01);
+}
+
+main > p, div{
+    text-align: justify;
+    text-indent: 25px;
+}
+main > h1{
+    color: var(--cor02);
+    font-family: var(--fonte-destaque);
+}
+header > h1{
+    font-family:var(--fonte-padrao);
+    padding: 5px 0px;
+}
+
+header{
+    color: rgba(255, 255, 255, 0.753);
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(--cor01),var(--cor04));
+    padding: 7px 0px 10px 5px;
+    font-size: 1.0em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.377);
+}
+header > nav{
+    padding-top: 35px;
+    padding-left: 10px;
+}
+
+main > h1{
+    font-family: var(--fonte-android);
+}
+
+h2{
+    font-family: var(--fonte-android);
+    background-color: var(--cor03);
+}
+
+h3#aprender{
+    padding: 10px 5px;
+    border-radius: 10px 10px 0px 0px; 
+    background-color: var(--cor04);
+    color: white;
+}
+/*Home, noticias, cursiosidades e fale conosco*/
+nav, section > a{
+    color: white;
+    text-decoration: none;
+    text-align: left;
+}
+
+nav > a:hover{
+    background-color: var(--cor05);
+    font-weight: bolder;
+    border-radius: 3px;
+    color: var(--cor04);
+    padding: 8px 10px;
+    border: solid 1px #1341028a;
+    
+}
+
+section > a{
+    font-size: 13px;
+    padding-right: 13px;
+}
+
+main{
+    background-color: white;
+    padding: 1px 15px;
+    margin: 0px 117px;
+    border:  1px solid rgba(0, 0, 0, 0.651);
+}
+
+.android{
+    margin: auto;
+    display: block;
+}
+
+.inframew{
+    display: block;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+section{
+    background-color: #03db88;
+    border-radius: 10px;
+    padding: 0px 5px 5px 5px;
+}
+
+.separador{
+    padding-bottom: 10px;
+}
+
+li > div{
+    display: inline;
+    text-decoration: underline;
+}

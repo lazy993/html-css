@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos localmente</h1>
+    <p>Este vídeo está localizado no meu próprio servidor.</p>
+    <!-- <video src="midia/video.mp4" width="500" controls> </video>-->
+    <video controls poster="imagens/dog-1000.jpg" width="560">
+        <source src="midia/Video.mkv" type="video/mkv">
+        <source src="midia/video.mp4" type="video/mp4">
+        <source src="midia/Video.webm" type="video/webm">
+        <p>infelizmente seu navegador não roda vídeos</p>
+    </video>
+
+    <h1>Inserindo vídeos externos</h1>
+    <p>Este vídeo está inserido em outro servidor, e foi utilizado neste site.</p>
+    <h2>Youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/P7Cz2IPe5J8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h2>Vimeo</h2>
+    <iframe src="https://player.vimeo.com/video/330207644?h=6a9e658aaf&color=ffffff&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

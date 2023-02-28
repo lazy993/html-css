@@ -1,0 +1,21 @@
+@charset "8";
+@font-face {
+    font-family: 'Wonder';
+    src: url(fonts/Wonder\ Night.otf) format(opentype), url(fonts/Wonder\ Night.ttf) format(Truetype);}
+body{
+    font-family: sans-serif;
+}
+h1{
+    font-family: 'Wonder', sans-serif;
+    font-size: 4.5em;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: underline;
+}
+h2{
+    font-family:'Wonder', sans-serif;
+    font-size: 3.5em;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: underline;
+}
